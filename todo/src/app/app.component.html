@@ -1,29 +1,45 @@
 <h1>{{title}}</h1>
-
-  <input   [(ngModel)] ="newTodo" type="text" >
+<div >
  
-  <button (click)="addTodo(newTodo)" >Add</button>
-{{todo}}
+  <div>
+    <label>
 
+      <input [(ngModel)]="newTodo"  value={{newTodo}} placeholder="Enter your todo List" >
+      
+      <button (click)="addTodo(newTodo)">Add</button>
+    </label>
+
+  <button (click)="updateTodo(newTodo)"   >Update</button> 
+  </div>
+  {{newTodo}}
+</div>
 <br><br>
 
 <table border="1px">
   <tr>
-    <th>Label</th>
+    <th >Label</th>
    
     <th>Done</th>
     <th>Actions</th>
+    <th>Modify</th>
 
   </tr>
 
 
-<tr *ngFor="let todo of todos">
+<tr *ngFor="let todo of todos; let idx=index" >
 
 
-   <td>{{todo.label}}</td>
+   <td  >{{todo.label}}</td>
 
   <td>{{todo.done}}</td> 
 <td>
   <button (click)="deleteTodo(todo)">Delete</button>
 </td>
+
+
+<td>
+    <button (click)="editTodo(todo,idx)">Edit</button> 
+  
+    
+  </td>
 </table>
