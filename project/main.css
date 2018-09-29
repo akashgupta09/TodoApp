@@ -231,7 +231,7 @@ img{
                     border-radius: 6px;
                     text-align: center;
                     font-size: 15px;
-                    margin-left: 129px;
+                    margin-left:-1px;
                     font-family: 'Poppins', sans-serif;
                     font-weight: 600;
                     margin-bottom: 10px;
