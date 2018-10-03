@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 </head>
 
@@ -117,7 +117,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="scope_support-tab" data-toggle="tab" href="#scope_support" role="tab" aria-controls="scope_support"
-                        aria-expanded="true">Support</a>
+                        aria-expanded="true">Support T & C's</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " id="scope_heighlight-tab" data-toggle="tab" href="#scope_docs" role="tab" aria-controls="scope_docs"
@@ -142,8 +142,8 @@
                                 <thead>
                                     <tr class="executiveheading">
                                         <th style="width:50px;">#</th>
-                                        <th style="width:440px !important;">Strategy Drivers</th>
-                                        <th style="width:521px !important;">Response</th>
+                                        <th style="width:373px !important;">Strategy Drivers</th>
+                                        <th style="width:545px !important;">Response</th>
                                         <th>
                                             <i class="fa fa-gear"></i>
                                         </th>
@@ -155,7 +155,7 @@
                                         <input type="text" name="strategy" value="Existing Relationship" class="form-control" readonly>
                                     </td>
                                     <td class="inputResponse">
-                                        <input type="text" name="scope" required class="form-control">
+                                        <input type="text" name="scope" value="Yes/No" required class="form-control">
                                     </td>
                                     <td>
                                         <a>
@@ -240,13 +240,33 @@
                                     </td>
                                 </tr>
                                 <tr>
+
                                     <td class="number">6</td>
 
-                                    <td class="inputStrategy">
-                                        <input type="text" name="strategy" value="CMS IT Relationship" class="form-control" readonly>
+                                    <td>
+                                        <input type="text" name="strategy" value="CMS IT Relationship" class="form-control" id="relationship" readonly>
                                     </td>
-                                    <td class="inputResponse">
-                                        <input type="text" name="scope" required class="form-control">
+                                    <td class="favourAgainstNeutral">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">Favour</span>
+                                            </div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <br>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">Against</span>
+                                            </div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <br>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">Neutral</span>
+                                            </div>
+                                            <input type="text" class="form-control">
+                                        </div>
                                     </td>
                                     <td>
                                         <a>
@@ -291,6 +311,10 @@
                                         </a>&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a>
                                             <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                        <a>
+                                            <img src="/home/autosum/Desktop/project/add-orange.png">
                                         </a>
                                     </td>
                                 </tr>
@@ -369,17 +393,30 @@
                         <button type="button" class="cancel">CANCEL</button>
                     </div>
                 </div>
+
+
+
+
                 <!--Section:criterion part-->
                 <div role="tabpanel" class="tab-pane fade" id="scope_criterion">
-                    <button type="button" class="eligibilityBtn">Eligibility Criterion</button>
-                    <button type="button" class="criterionBtn">Evalution Criterion</button>
+
+                    <a class="eligibilityBtn">Eligibility Criterion</a>
+
+
+                    <a class="evalutionBtn">Evalution Criterion</a>
+
+
+
+                    <!--             
+                    <div class="tab-content"> -->
+                    <!-- <div role="tabpanel" class="tab-pane fade active" id="scope_criterion"> -->
                     <div class="row">
                         <div class="col-md-12">
                             <table class="removBorder">
                                 <thead>
                                     <tr>
                                         <th style="width:45px;">#</th>
-                                        <th style="width:927px ;"> Eligibilty Criterion</th>
+                                        <th style="width:915px ;"> Eligibilty Criterion</th>
                                         <th id="gearCriterion" class="fa fa-gear"> </th>
                                     </tr>
                                 </thead>
@@ -428,6 +465,72 @@
                         <button type="button" class="cancel">CANCEL</button>
                     </div>
                 </div>
+
+                <!--         
+                        <div role="tabpanel" class="tab-pane fade" id="scope_evalution"> -->
+                <!-- <div class="row">
+                                    <div class="col-md-12">
+                                        <table class="removBorder">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width:45px;">#</th>
+                                                    <th style="width:927px ;"> Evalution Criterion</th>
+                                                    <th id="gearCriterion" class="fa fa-gear"> </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="srno"></td>
+                                                    <td>
+                                                        <input type="text" name="scope" required class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <a>
+                                                            <img src="/home/autosum/Desktop/project/attachment.png">
+                                                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <a>
+                                                            <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <a>
+                                                            <img src="/home/autosum/Desktop/project/add-orange.png">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>
+                                                        <input type="text" name="scope" required class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <a>
+                                                            <img src="/home/autosum/Desktop/project/attachment.png">
+                                                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <a>
+                                                            <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <a>
+                                                            <img src="/home/autosum/Desktop/project/add-orange.png">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <button type="button" class="draft">SAVE AS DRAFT</button>
+                                    <button type="button" class="submit">SUBMIT SCOPE</button>
+                                    <button type="button" class="cancel">CANCEL</button>
+                                </div>
+                                </div>
+                            </div>
+                    
+
+</div> -->
+
+
+
+
                 <!-- Financial T & c's -->
                 <div role="tabpanel" class="tab-pane fade" id="scope_financial">
                     <div class="row">
@@ -436,7 +539,7 @@
                                 <thead>
                                     <tr>
                                         <th style="width:50px;">#</th>
-                                        <th style="width:944px;">Financial T&C's</th>
+                                        <th style="width:915px;">Financial T & C's</th>
                                         <th id="gearFinancial" class="fa fa-gear"></th>
                                     </tr>
                                 </thead>
@@ -476,7 +579,7 @@
                                 <thead>
                                     <tr>
                                         <th style="width:50px; ">#</th>
-                                        <th style="width:944px;"> Delivery T&c's</th>
+                                        <th style="width:915px;"> Delivery T & C's</th>
                                         <th id="gearDelivery" class="fa fa-gear"></th>
                                     </tr>
                                 </thead>
@@ -534,7 +637,7 @@
                                 <thead>
                                     <tr>
                                         <th style="width:50px;">#</th>
-                                        <th style="width:944px;"> Support</th>
+                                        <th style="width:915px;"> Support T & C's</th>
                                         <th id="gearSupport" class="fa fa-gear"></th>
                                     </tr>
                                 </thead>
@@ -591,7 +694,7 @@
                                 <thead>
                                     <tr>
                                         <th style="width:48px;">#</th>
-                                        <th style="width:900px;">Documents Required </th>
+                                        <th style="width:868px;">Documents Required </th>
                                         <th id="gearDocument" class="fa fa-gear"></th>
                                     </tr>
                                 </thead>
@@ -602,9 +705,7 @@
                                             <input type="text" name="scope" required class="form-control">
                                         </td>
                                         <td>
-                                            <a>
-                                                <img src="/home/autosum/Desktop/project/white-arrow-down.png">
-                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="checkbox" class="checkboxDocs">&nbsp;&nbsp;&nbsp;
                                             <a>
                                                 <img src="/home/autosum/Desktop/project/attachment.png">
                                             </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -622,19 +723,16 @@
                                             <input type="text" name="scope" required class="form-control">
                                         </td>
                                         <td>
+                                            <input type="checkbox" class="checkboxDocs">&nbsp;&nbsp;&nbsp;
                                             <a>
-                                                <img src="/home/autosum/Desktop/project/white-arrow-down.png">
+                                                <img src="/home/autosum/Desktop/project/attachment.png">
                                             </a>&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a>
-                                                <a>
-                                                    <img src="/home/autosum/Desktop/project/attachment.png">
-                                                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <a>
-                                                    <img src="/home/autosum/Desktop/project/rubbish-bin.png">
-                                                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <a>
-                                                    <img src="/home/autosum/Desktop/project/add-orange.png">
-                                                </a>
+                                                <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/add-orange.png">
+                                            </a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -655,8 +753,8 @@
                                 <thead>
                                     <tr>
                                         <th style="width:48px;">#</th>
-                                        <th style="width:945px;">Annexures</th>
-                                        <th id="gearAccount" class="fa fa-gear"></th>
+                                        <th style="width:868px;">Annexures</th>
+                                        <th id="gearAnnexures" class="fa fa-gear"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -666,6 +764,7 @@
                                             <input type="text" name="scope" required class="form-control">
                                         </td>
                                         <td>
+                                            <input type="checkbox" class="checkboxAnnexures">&nbsp;&nbsp;&nbsp;
                                             <a>
                                                 <img src="/home/autosum/Desktop/project/attachment.png">
                                             </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -683,6 +782,7 @@
                                             <input type="text" name="scope" required class="form-control">
                                         </td>
                                         <td>
+                                            <input type="checkbox" class="checkboxAnnexures">&nbsp;&nbsp;&nbsp;
                                             <a>
                                                 <img src="/home/autosum/Desktop/project/attachment.png">
                                             </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -712,7 +812,7 @@
                                 <thead>
                                     <tr>
                                         <th style="width:50px;">#</th>
-                                        <th style="width:940px;">Account info</th>
+                                        <th style="width:915px;">Account info</th>
                                         <th id="gearAccount" class="fa fa-gear"></th>
                                     </tr>
                                 </thead>
@@ -764,11 +864,11 @@
             </div>
 
         </div>
-        </div>
+    </div>
 
+    <!-- 
 
-
-        <!--Approval Dashboard-->
+        
         <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -823,10 +923,8 @@
 
 
 
-
-
-        <!--solution-->
-        <form>
+        
+         <form>
 
             <div class="container">
                 <h1 class="pageHeading">Bid Development</h1>
@@ -867,7 +965,7 @@
                 </ul>
             </div>
 
-        </form>
+        </form> -->
 
 
 
@@ -877,7 +975,7 @@
 
 
 
-        <!---  -     -      =footer -              -->
+
 
 
 

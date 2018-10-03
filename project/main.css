@@ -37,6 +37,7 @@
 
 img{
     width:17px !important;
+    margin-left:10px !important;
 }
 
 .imagelogo{
@@ -134,7 +135,8 @@ img{
                     font-size:13px;
                     font-family: 'Poppins', sans-serif;
                     padding:4px; 
-                    border: 0px solid #ccc;   
+                    border: 0px solid #ccc; 
+                    text-align:center;  
                 
                 }
 
@@ -172,10 +174,14 @@ img{
                 body {
                     font-family: 'Poppins', sans-serif;
                     font-size: 12px;
+                    
                 }
 
               
-               
+               .favourAgainstNeutral{
+                line-height: 0.5;
+
+               }
 
 
 
@@ -224,33 +230,26 @@ img{
                  } */
                
                 .eligibilityBtn{
-                    background-color: #17b495;
-                    border: 1px solid #17b495;
-                    color: #fff;
-                    border-color: #17b495;
-                    border-radius: 6px;
-                    text-align: center;
-                    font-size: 15px;
-                    margin-left:-1px;
-                    font-family: 'Poppins', sans-serif;
-                    font-weight: 600;
+                    background-color: #55b596;
+                    color: white !important;
+                    padding: 2px;
+                    cursor: pointer;
                     margin-bottom: 10px;
-                    border-top: 4px solid #364453 !important;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    text-align: center;
 
                 }            
 
-                .criterionBtn{
-                    background-color: #364453;
-                    border: 1px solid #364453;
-                    color: #fff;
-                   
-                    border-radius: 6px;
-                    text-align: center;
-                    font-size: 15px;
-                   
-                    font-family: 'Poppins', sans-serif;
-                    font-weight: 600;
+                .evalutionBtn{
+                    background-color: #55b596;
+                    color: white !important;
+                    padding: 2px;
+                    cursor: pointer;
                     margin-bottom: 10px;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    text-align: center;
     
                     }    
                     
@@ -269,7 +268,7 @@ img{
                                 {
                                      border: 0;
                                      background-color:#364453;
-                                     padding-bottom:18px;
+                                     padding-bottom:11px;
                                      border-radius:7px;
 
                                 }
@@ -307,35 +306,49 @@ img{
 }
 
 #gearAccount{
-    padding-left: 46px;
+    padding-left: 66px;
     padding-top: 15px;
 
 }
 
 #gearDocument{
-    padding-left: 67px;
+    padding-left: 81px;
+    padding-top: 17px;
+}
+
+#gearAnnexures{
+    padding-left: 81px;
     padding-top: 17px;
 }
 
 #gearCriterion{
-    padding-left: 46px;
+    padding-left: 66px;
     padding-top: 17px;
 }
 
 
 
 #gearSupport{
-    padding-left: 46px;
+    padding-left: 66px;
     padding-top: 15px;
 }
 
 #gearDelivery{
-    padding-left: 46px;
+    padding-left: 66px;
     padding-top: 15px;
 }
 
 #gearFinancial{
-    padding-left: 46px;
+    padding-left: 66px;
     padding-top: 15px;
 }
 
+
+.checkboxAnnexures , .checkboxDocs{
+margin-left: 12px !important;
+}
+
+#relationship{
+height:133px;
+width: 367px;
+}
