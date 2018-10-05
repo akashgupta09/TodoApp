@@ -122,7 +122,7 @@
                             <a class="nav-link" id="bid_deal-tab" data-toggle="tab" href="#bid_deal" role="tab" aria-controls="bid_deal" aria-expanded="true">Deal Summary</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="bid_document-tab" data-toggle="tab" href="#bid_document" role="tab" aria-controls="bid_document"
+                            <a class="nav-link" id="bid_documents-tab" data-toggle="tab" href="#bid_documents" role="tab" aria-controls="bid_document"
                                 aria-expanded="true">Bid Documents</a>
                         </li>
                         <li class="nav-item">
@@ -157,7 +157,7 @@
                             <table class="removBorder">
                                 <thead>
                                     <tr>
-                                        <th> Sr.#</th>
+                                        <th>Sr#</th>
                                         <th>Item</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
@@ -172,19 +172,19 @@
                                     <tr>
                                         <td>1</td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" reqired>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
 
-                                        <td>
+                                        <td id="mainGear">
                                             <a>
                                                 <img src="/home/autosum/Desktop/project/attachment.png">
                                             </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -199,16 +199,16 @@
                                     <tr>
                                         <td></td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
 
                                         <td>
@@ -235,12 +235,12 @@
                 </div>
             </div>
             <!-- solutions -->
-            <div role="tabpanel" class="tab-pane active fade" id="bid_solution">
+            <div role="tabpanel" class="tab-pane  fade" id="bid_solution">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <input id="hardwareBtn" type="button" value="hardware">
-                            <input id="softwareBtn" type="button" value="software">
+                            <input id="hardwareBtn" type="button" value="Hardware">
+                            <input id="softwareBtn" type="button" value="Software">
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
                             <table class="removBorder">
                                 <thead>
                                     <tr>
-                                        <th>Sr.#</th>
+                                        <th>Sr#</th>
                                         <th>Item</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
@@ -265,19 +265,49 @@
                                     <tr>
                                         <td></td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
+
+                                        </td>
+                                        <td id="solutionGear">
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/attachment.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/add-orange.png">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td id="solutionGear">
                                             <a>
@@ -305,12 +335,12 @@
 
             <!-- solution Ends Here -->
             <!-- Reviews -->
-            <div role="tabpanel" class="tab-pane active fade" id="bid_reviews">
+            <div role="tabpanel" class="tab-pane  fade" id="bid_reviews">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <input id="reviewer1Btn" type="button" value="Reviewer1">
-                            <input id="reviewer2Btn" type="button" value="Reviewer2">
+                            <input id="reviewer1Btn" type="button" value="Reviewer 1">
+                            <input id="reviewer2Btn" type="button" value="Reviewer 2">
                         </div>
                     </div>
                 </div>
@@ -320,7 +350,7 @@
                             <table class="removBorder">
                                 <thead>
                                     <tr>
-                                        <th>Sr.#</th>
+                                        <th>Sr #</th>
                                         <th>Comments</th>
                                         <th>Reference</th>
                                         <th>Action Required</th>
@@ -334,19 +364,48 @@
                                     <tr>
                                         <td></td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" required>
                                         </td>
 
-                                        <td id="solutionGear">
+                                        <td id="reviewsGear">
+                                            <input type="checkbox" class="checkboxDocs">&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/attachment.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/add-orange.png">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+
+                                        <td id="reviewsGear">
+                                            <input type="checkbox" class="checkboxDocs">&nbsp;&nbsp;&nbsp;
                                             <a>
                                                 <img src="/home/autosum/Desktop/project/attachment.png">
                                             </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -369,10 +428,389 @@
                     <button type="button" class="cancel">CANCEL</button>
                 </div>
             </div>
+            <!-- Reviews End here -->
+
+            <!-- Approval Required -->
+            <div role="tabpanel" class="tab-pane fade" id="bid_approval">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="removBorder">
+                                <thead>
+                                    <tr>
+                                        <th>Sr #</th>
+                                        <th>Approval Required</th>
+                                        <th>Justification</th>
+                                        <th>
+                                            <i class="fa fa-gear"></i>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr id="approvalGear">
+                                        <td></td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/attachment.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/add-orange.png">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td id="approvalGear">
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/attachment.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/add-orange.png">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <button type="button" class="draft">SAVE AS DRAFT</button>
+                        <button type="button" class="submit">SUBMIT </button>
+                        <button type="button" class="cancel">CANCEL</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Approval Required Ends Here -->
+
+            <!-- RFI -->
+            <div role="tabpanel" class="tab-pane fade" id="bid_rfi">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input id="reviewer1Btn" type="button" value="RFI 1">
+                            <input id="reviewer2Btn" type="button" value="RFI 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="removBorder">
+                                <thead>
+                                    <tr>
+                                        <th>Sr #</th>
+                                        <th>Comments</th>
+                                        <th>Reference</th>
+                                        <th>Action Required</th>
+                                        <th>Action Taken</th>
+                                        <th>
+                                            <i class="fa fa-gear"></i>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+
+                                        <td id="rfiGear">
+                                            <input type="checkbox" class="checkboxDocs">&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/attachment.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/add-orange.png">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" required>
+                                        </td>
+
+                                        <td id="reviewsGear">
+                                            <input type="checkbox" class="checkboxDocs">&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/attachment.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/rubbish-bin.png">
+                                            </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a>
+                                                <img src="/home/autosum/Desktop/project/add-orange.png">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <button type="button" class="draft">SAVE AS DRAFT</button>
+                    <button type="button" class="submit">SUBMIT</button>
+                    <button type="button" class="cancel">CANCEL</button>
+                </div>
+            </div>
+            <!-- RFI  Ends Here-->
+
+            <!-- Deal Summary Start Here -->
+            <!-- Deal Summary Ends Here -->
+
+            <!-- Bid Documents -->
+
+            <div role="tabpanel" class="tab-pane  fade" id="bid_documents">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="panel panel-default ">
+                                <div id="panelHeading1">Pricing Calculations</div>
+                            </div>
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-4">
+                                    <img id="excel" src="/home/autosum/Desktop/bid development/excelicon.png">
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="excelHeading">
+                                        <a href="#">Pricingcalculation.xls</a>
+                                    </div>
+                                    <div id="currentVersion">
+                                        Current Version.v1
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <hr id="horizontal">
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-6">
+                                    <div id="date">5/10/2018</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="time">12:35:55</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table id="tableBordered" border="1">
+                                        <tr>
+                                            <th id="AG">AG</th>
+
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/download.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/reload.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="panel panel-default ">
+                                <div id="panelHeading2">Account Plans</div>
+                            </div>
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-4">
+                                    <img id="word" src="/home/autosum/Desktop/bid development/Microsoft_Word_2013_logo.svg.png">
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="excelHeading">
+                                        <a href="#">accountplan.doc</a>
+                                    </div>
+                                    <div id="currentVersion">
+                                        Current Version
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <hr id="horizontal">
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-6">
+                                    <div id="date">5/10/2018</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="time">5:35:55</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table id="tableBordered" border="1">
+                                        <tr>
+                                            <th id="AG">AG</th>
+
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/download.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/reload.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="panel panel-default ">
+                                <div id="panelHeading3">Standard Terms</div>
+                            </div>
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-4">
+                                    <img id="pdf" src="/home/autosum/Desktop/bid development/pdficon.png">
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="excelHeading">
+                                        <a href="#">Standardterms.pdf</a>
+                                    </div>
+                                    <div id="currentVersion">
+                                        Current Version
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <hr id="horizontal">
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-6">
+                                    <div id="date">7/10/2018</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="time">10:35:55</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table id="tableBordered" border="1">
+                                        <tr>
+                                            <th id="AG">AG</th>
+
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/download.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/reload.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="panel panel-default">
+                                <div id="panelHeading4">PFP Documents</div>
+                            </div>
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-4">
+                                    <img id="word2" src="/home/autosum/Desktop/bid development/Microsoft_Word_2013_logo.svg.png">
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="excelHeading">
+                                        <a href="#">rfpdocuments.doc</a>
+                                    </div>
+                                    <div id="currentVersion">
+                                        Current Version
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <hr id="horizontal">
+                            <div class="row" id="helloGrey">
+                                <div class="col-md-6">
+                                    <div id="date">16/10/2018</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="time">19:35:55</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table id="tableBordered" border="1">
+                                        <tr>
+                                            <th id="AG">AG</th>
+
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/download.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/reload.png">
+                                            </th>
+                                            <th>
+                                                <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
 
 
         </div>
+
+
+        <!-- Bid Documents  Ends Here-->
+
+
+
+
+
+
+
+
+
+
         <!-- Footer -->
 
         <div class="footer">

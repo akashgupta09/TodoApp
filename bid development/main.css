@@ -127,7 +127,7 @@ img{
 
 table,th,td{
     background-color: #364453;
-    border: 0px;
+   
     border-radius:7px;
     padding-bottom:11px;
 }
@@ -139,6 +139,8 @@ th{
 .panel-body{
     background-color: #17b495;
     color:white;
+    padding:6px;
+
 }
 
 .draft {
@@ -193,8 +195,21 @@ th{
     width: 100%;
 }
 
+
+#mainGear{
+    width:14% !important;
+}
 #solutionGear{
-    width:13% !important;
+    width:14% !important;
+}
+#reviewsGear{
+    width:17% !important;
+}
+#approvalGear{
+    width:14% !important;
+}
+#rfiGear{
+    width:17% !important;
 }
 
 #hardwareBtn{
@@ -237,8 +252,147 @@ th{
     background-color: #17b495;
     margin-bottom: 4px;
     margin-top:4px;
-   
+}
+
+th{
+    font-weight:normal;
+}
+
+#panelHeading1{
+text-align: center;
+height:35px;
+padding:5px; 
+border-radius:1px;
+color:white; 
+background-color:green;
+font-size:16px;
+}
+
+#panelHeading2{
+    text-align: center;
+    height:35px;
+    padding:5px; 
+    border-radius:1px;
+    color:white; 
+    background-color:#5DADE2  ;
+    font-size:16px;
+    }
+ #panelHeading3{
+        text-align: center;
+        height:35px;
+        padding:5px; 
+        border-radius:1px;
+        color:white; 
+        background-color:#E74C3C;
+        font-size:16px;
+        }
+  #panelHeading4{
+            text-align: center;
+            height:35px;
+            padding:5px; 
+            border-radius:1px;
+            color:white; 
+            background-color:#5DADE2 ;
+            font-size:16px;
+            }
+
+
+
+
+
+
+
+#excel{
+width:125% !important;
 
 }
 
+#word{
+    width: 50px !important;
+    margin-top: 10px;
+}
 
+#pdf{
+    width: 99% !important;
+    margin-top: 9px;
+}
+
+#word2{
+    width: 50px !important;
+    margin-top: 10px;
+
+}
+
+#helloGrey{
+    background-color: #eee;
+    width: 255px;
+    margin-left: 0px;
+}
+
+
+#date{
+    color: #17b495;
+    font-size: 12px;
+}
+#time{
+    margin-left: 32px;
+    color: #17b495;
+    font-size: 12px;
+}
+#excelHeading{
+    color: #17b495;
+    margin-top: 14px;
+    font-size:14px;
+}
+#currentVersion{
+    font-size: 12px;
+    color: black;
+    width: 100px;
+    margin-top: 0px;
+}
+
+
+#horizontal{
+    margin-top: -5px !important;
+    margin-bottom: 3px !important;
+     
+}
+
+
+
+#bidImage{
+    width: 23px !important;
+     margin-left: 21px !important; 
+    padding-top:6px;
+}
+
+#AG{
+    border: 2px solid #17b495;
+    border-radius: 22px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 4px;
+    font-size: 12px;
+    color: #fff;
+    width: 28px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+
+#tableBordered{
+    width:100%;
+    border: 1px solid grey;
+   
+    border-radius:0px !important;
+    
+}
+
+.col-md-3{
+    margin-top:43px;
+}
+
+  
