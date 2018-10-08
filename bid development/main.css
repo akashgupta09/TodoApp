@@ -85,7 +85,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 #reviewBtn{
-    margin-left: 245px;
+    margin-left: 304px;
     border-radius: 20px;
     color: #ffffff;
     background-color: #ec9138;
@@ -109,7 +109,7 @@ body{
 #closeBtn{
     border-radius: 20px;
     color: #ffffff;
-    background-color: #fc2136;
+    background-color: #dc3545;
     border: 1px solid #ffffff;
     font-weight: 200;
     font-family: 'Poppins', sans-serif;
@@ -143,6 +143,7 @@ table,th,td{
    
     border-radius:7px;
     padding-bottom:11px;
+    padding-top: 1.5px;
 }
 
 th{
@@ -151,10 +152,12 @@ th{
 
 .panel-body{
     background-color: #17b495;
-    color:white;
-    padding:6px;
-
+    color: white;
+    padding: 9px;
+    border-radius: 7px;
+    padding-left: 9px;
 }
+
 
 .draft {
     background-color:#ec9138;
@@ -164,7 +167,7 @@ th{
     border-radius: 20px;
     text-align: center;
     font-size: 12px;
-    margin-left: 332px;
+    margin-left: 368px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding: .5rem 2rem;
@@ -214,16 +217,16 @@ th{
 
 
 #mainGear{
-    width:14% !important;
+    width:15% !important;
 }
 #solutionGear{
-    width:14% !important;
+    width:15% !important;
 }
 #reviewsGear{
     width:17% !important;
 }
 #approvalGear{
-    width:14% !important;
+    width:15% !important;
 }
 #rfiGear{
     width:17% !important;
@@ -312,7 +315,7 @@ th{
 
 #panelHeading1{
 text-align: center;
-height:35px;
+height:38px;
 padding:5px; 
 border-radius:1px;
 color:white; 
@@ -322,7 +325,7 @@ font-size:16px;
 
 #panelHeading2{
     text-align: center;
-    height:35px;
+    height:38px;
     padding:5px; 
     border-radius:1px;
     color:white; 
@@ -331,20 +334,19 @@ font-size:16px;
     }
  #panelHeading3{
         text-align: center;
-        height:35px;
+        height:38px;
         padding:5px; 
         border-radius:1px;
         color:white; 
-        background-color:#E74C3C;
-        font-size:16px;
+        background-color:#B92805   ;  
         }
   #panelHeading4{
             text-align: center;
-            height:35px;
+            height:38px;
             padding:5px; 
             border-radius:1px;
-            color:white; 
-            background-color:#5DADE2 ;
+            color:white;  
+            background-color:#C54318   ;
             font-size:16px;
             }
 
@@ -369,9 +371,10 @@ width:125% !important;
     margin-top: 9px;
 }
 
-#word2{
+#ppt{
     width: 50px !important;
     margin-top: 10px;
+
 
 }
 
@@ -413,9 +416,9 @@ width:125% !important;
 
 
 #bidImage{
-    width: 20px !important;
-     margin-left: 21px !important; 
-    padding-top:6px;
+    width: 21px !important;
+    margin-left: 21px !important;
+    padding-top:2px;
 }
 
 #AG{
@@ -423,13 +426,13 @@ width:125% !important;
     border-radius: 22px;
     font-family: 'Poppins', sans-serif;
     display: inline-block;
-    padding: 4px;
+    padding: 3px;
     font-size: 12px;
     color: #fff;
-    width: 28px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-left: 10px;
+    width: 27px;
+    margin-right: 0px;
+    margin-top: 3px;
+    margin-left: 12px;
 }
 
 
@@ -440,6 +443,7 @@ width:125% !important;
     border: 1px solid grey;
    
     border-radius:0px !important;
+   
     
 }
 
@@ -447,4 +451,13 @@ width:125% !important;
     margin-top:43px;
 }
 
-  
+#sr{
+    width:46px;
+}
+
+  #select{
+    width: 113%;
+    border-radius: 4px;
+    height: 38px;
+    background-color: white;
+  }

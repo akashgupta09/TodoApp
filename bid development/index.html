@@ -127,7 +127,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="bid_discussion-tab" data-toggle="tab" href="#bid_discussion" role="tab" aria-controls="bid_discussion"
-                                aria-expanded="true">Discussion Boards</a>
+                                aria-expanded="true">Discussion Board</a>
                         </li>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                             <table class="removBorder">
                                 <thead>
                                     <tr>
-                                        <th>Sr#</th>
+                                        <th id="sr">Sr #</th>
                                         <th>Item</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
@@ -170,7 +170,7 @@
 
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
+                                        <td></td>
                                         <td>
                                             <input type="text" class="form-control" required>
                                         </td>
@@ -250,7 +250,7 @@
                             <table class="removBorder">
                                 <thead>
                                     <tr>
-                                        <th>Sr#</th>
+                                        <th id="sr">Sr #</th>
                                         <th>Item</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
@@ -277,7 +277,12 @@
                                             <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control" required>
+                                            <select  id="select">
+                                                <option >-select-</option>
+                                                <option>Mak Jadhav</option>
+                                                <option>Akash Gupta</option>
+                                                <option>Shubham Arora</option>
+                                                </select>
 
                                         </td>
                                         <td id="solutionGear">
@@ -307,7 +312,12 @@
                                             <input type="text" class="form-control" required>
                                         </td>
                                         <td>
-                                            <input type="text" class="form-control" required>
+                                            <select  id="select">
+                                                <option>-select-</option>
+                                                <option>Mak Jadhav</option>
+                                                <option>Akash Gupta</option>
+                                                <option>Shubham Arora</option>
+                                                </select>
                                         </td>
                                         <td id="solutionGear">
                                             <a>
@@ -339,8 +349,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <input id="reviewer1Btn" type="button" value="Reviewer 1">
-                            <input id="reviewer2Btn" type="button" value="Reviewer 2">
+                            <input id="reviewer1Btn" type="button" value="Review 1">
+                            <input id="reviewer2Btn" type="button" value="Review 2">
                         </div>
                     </div>
                 </div>
@@ -350,7 +360,7 @@
                             <table class="removBorder">
                                 <thead>
                                     <tr>
-                                        <th>Sr #</th>
+                                        <th id="sr">Sr #</th>
                                         <th>Comments</th>
                                         <th>Reference</th>
                                         <th>Action Required</th>
@@ -517,7 +527,7 @@
                             <table class="removBorder">
                                 <thead>
                                     <tr>
-                                        <th>Sr #</th>
+                                        <th id="sr">Sr #</th>
                                         <th>Comments</th>
                                         <th>Reference</th>
                                         <th>Action Required</th>
@@ -634,7 +644,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <table id="tableBordered" border="1">
+                                    <table id="tableBordered" border="1" >
                                         <tr>
                                             <th id="AG">AG</th>
 
@@ -646,7 +656,8 @@
                                             </th>
                                             <th>
                                                 <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
-                                        </tr>
+                                       </th>
+                                            </tr>
                                     </table>
                                 </div>
                             </div>
@@ -684,7 +695,7 @@
                                 <div class="col-md-12">
                                     <table id="tableBordered" border="1">
                                         <tr>
-                                            <th id="AG">AG</th>
+                                            <th id="AG">SA</th>
 
                                             <th>
                                                 <img id="bidImage" src="/home/autosum/Desktop/bid development/download.png">
@@ -694,7 +705,8 @@
                                             </th>
                                             <th>
                                                 <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
-                                        </tr>
+                                      </th>
+                                            </tr>
                                     </table>
                                 </div>
                             </div>
@@ -732,7 +744,7 @@
                                 <div class="col-md-12">
                                     <table id="tableBordered" border="1">
                                         <tr>
-                                            <th id="AG">AG</th>
+                                            <th id="AG">NM</th>
 
                                             <th>
                                                 <img id="bidImage" src="/home/autosum/Desktop/bid development/download.png">
@@ -742,7 +754,8 @@
                                             </th>
                                             <th>
                                                 <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
-                                        </tr>
+                                      </th>
+                                            </tr>
                                     </table>
                                 </div>
                             </div>
@@ -751,15 +764,15 @@
  <!--PFP Documents-->                       
                         <div class="col-md-3">
                             <div class="panel panel-default">
-                                <div id="panelHeading4">PFP Documents</div>
+                                <div id="panelHeading4">RFP Documents</div>
                             </div>
                             <div class="row" id="helloGrey">
                                 <div class="col-md-4">
-                                    <img id="word2" src="/home/autosum/Desktop/bid development/Microsoft_Word_2013_logo.svg.png">
+                                    <img id="ppt" src="/home/autosum/Desktop/bid development/ppt.png">
                                 </div>
                                 <div class="col-md-8">
                                     <div id="excelHeading">
-                                        <a href="#">rfpdocuments.doc</a>
+                                        <a href="#">rfpdocuments.ppt</a>
                                     </div>
                                     <div id="currentVersion">
                                         Current Version
@@ -780,7 +793,7 @@
                                 <div class="col-md-12">
                                     <table id="tableBordered" border="1">
                                         <tr>
-                                            <th id="AG">AG</th>
+                                            <th id="AG">MJ</th>
 
                                             <th>
                                                 <img id="bidImage" src="/home/autosum/Desktop/bid development/download.png">
@@ -790,7 +803,8 @@
                                             </th>
                                             <th>
                                                 <img id="bidImage" src="/home/autosum/Desktop/bid development/white-arrow-down.png">
-                                        </tr>
+                                            </th>
+                                            </tr>
                                     </table>
                                 </div>
                             </div>
