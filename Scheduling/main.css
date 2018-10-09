@@ -91,14 +91,21 @@ body{
     border-radius: 1px;
     cursor: pointer;
     margin-bottom: 15px;
-    font-size: 12px;
+    font-size: 14px;
     min-height: 33px;
     padding: 0.5rem 2rem;
     font-weight: bold;
+    color:white;
 }
 .fa fa-plus{
 padding-left:5px;
 font-size:12px;
+}
+
+#plusBtn{
+    color:white;
+    font-weight: bold;
+     margin-right:9px;
 }
 
 
@@ -118,10 +125,12 @@ th{
     text-align: center !important;
     font-weight: normal;
     background-color: #364453;
+    font-size:14px;
+
 }
 td{
     color:black;
-    font-size:normal;
+    font-size:12px;
 }
 
 
@@ -140,7 +149,6 @@ td{
     background-color:#ec9138;
     border: 1px solid#ec9138;
     color: #fff;
-    border-color:#ec9138;
     border-radius: 20px;
     text-align: center;
     font-size: 12px;
