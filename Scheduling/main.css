@@ -61,7 +61,7 @@
 }
 
 img{
-    width:17px !important;
+    width:18px !important;
     margin-left:10px !important;
 }
 .dotted_separator {
@@ -84,44 +84,55 @@ img{
 body{
     font-family: 'Poppins', sans-serif;
 }
-.orangeBtn {
+
+#orangeBtn {
     background-color: #f1a458;
-   
+    font-family: 'Poppins', sans-serif;
     border-radius: 1px;
     cursor: pointer;
     margin-bottom: 15px;
+    font-size: 12px;
+    min-height: 33px;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
 }
 .fa fa-plus{
 padding-left:5px;
 font-size:12px;
-
-
 }
 
 
-table,th,td{
-    background-color: #364453;
+table,td{
+
     border-radius: 5px;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     padding-top: 3.5px;
     padding-left: 5px;
 }
 .removBorder{
     width:100% !important;
+    
 }
 th{
-    color:white;
-    text-align:center !important;
+    color: white;
+    text-align: center !important;
+    font-weight: normal;
+    background-color: #364453;
 }
 td{
-    color:white;
+    color:black;
+    font-size:normal;
 }
+
+
 
 #select{
     width: 100%;
     border-radius: 4px;
     height: 38px;
     background-color: white;
+    border-color:#ced4da;
+    font-size:14px; 
   }  
 
 
@@ -162,3 +173,7 @@ td{
             bottom: 0px;
             width: 100%;
         }
+
+.form-control{
+    font-size:14px !important;
+}
