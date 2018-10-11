@@ -1,0 +1,353 @@
+#navbarHead{
+    background-color: #364453;
+    padding-top:0;
+    padding-bottom:0;
+    height:42px;
+}
+
+.fa{
+    padding: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #17b495;
+}
+.fa fa-reorder{
+    padding: 2px;
+    color: #17b495;
+}
+.fa fa-inr{
+    padding: 2px;
+    color: #17b495;
+}
+.fa fa-eye{
+    padding: 2px;
+    color: #17b495;
+}
+.logo{
+    background-color: #eee;
+    padding-left:111px;
+    height:28px;
+}
+.pageHeading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #364453;
+    padding-top: 25px;
+}
+
+img{
+    width:17px !important;
+    margin-left:10px !important;
+}
+
+.imagelogo{
+    width:100px !important;
+}
+
+#search{
+    color:white;
+}
+
+#searchBid{
+    background: transparent;
+    border: 0;
+    outline:none;
+    color: white !important;
+}
+.searchBidStyle{
+    position: absolute;
+    right: 215px;
+    top: 10px;
+    border-bottom: 1px solid grey;
+}
+
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+ .ml-auto  {
+             left: auto !important;
+             right: 0px;
+           }
+
+ .draft {
+         background-color:#ec9138;
+         border: 1px solid#ec9138;
+         color: #fff;
+         border-color:#ec9138;
+         border-radius: 20px;
+         text-align: center;
+         font-size: 12px;
+         margin-left: 332px;
+         font-family: 'Poppins', sans-serif;
+         font-weight: 600;
+         padding: .5rem 2rem;
+         margin-top:73px;
+         }
+
+
+ .submit{
+        background-color: #17b495;
+                        color: #fff;
+                        border: 1px solid #17b495;
+                        border-radius: 20px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 600;
+                        padding: .5rem 2rem;
+                        font-size: 12px;
+                        text-align: center;
+                   
+                }
+
+                  .cancel{
+                    text-align: center;
+                    font-size: 12px;
+                    border-radius:20px;
+                    border-color: #17b495;
+                    color:black;
+                    background-color:white;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    border: 1px solid #17b495;
+                    padding: .5rem 2rem;
+
+                  }
+
+                  .number{
+                    color:#fff;
+                  text-align:center;
+
+
+                  }
+
+
+
+
+                 table {
+                    border: 1px solid #bdbdbd;
+                   
+                }
+
+                .executiveheading , .timelineheading{
+                    text-align:center;
+                }
+                
+               
+
+                .inputResponse{
+                    border-radius:5px;
+                    font-size:13px;
+                    font-family: 'Poppins', sans-serif;
+                    padding:4px; 
+                    border: 0px solid #ccc; 
+                    text-align:center; 
+                    padding-bottom:5px; 
+                
+                }
+
+
+                .inputStrategy{
+                    border-radius:5px;
+                    font-size:13px;
+                    font-family: 'Poppins', sans-serif;
+                    padding:4px; 
+                    border: 0px solid #ccc; 
+                    padding-bottom:5px;  
+
+                }
+                
+                th{ 
+                    color: #17b495;  
+                    padding: 10px;
+                    font-size:18px;
+                }
+                  
+               
+
+                .dotted_separator {
+                    content: "";
+                    display: inline-block;
+                    width: 0px;
+                    height: 10px;
+                    border-right: 1px solid #fafafa;
+                    border-left: 1px solid #b4b4b4;
+                    padding: 0;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+              
+
+                body {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 12px;
+                    
+                }
+
+              
+               .favourAgainstNeutral{
+                line-height: 0.5;
+
+               }
+                .nav-tabs {
+                    border-bottom: 1px solid#ddd;
+                }
+                #myTab .nav-item {
+                    border-top: 1px solid #f0f0f1;
+                    border-right: 1px solid #f0f0f1;
+                    border-left: 1px solid #f0f0f1;
+                    
+                }
+
+
+                .nav-tabs .nav-link {
+                    border: none;
+                    padding: 10px 15px;;
+                    border-radius: 0px;
+                    color: #495057;
+                    font-size: 14px !important;
+                }
+                .nav-tabs .nav-link.active {
+                    color: #17b495 !important;
+                    background-color: #fff !important;
+                   
+                    font-size: 14px !important;
+                    border-top: 4px solid #17b495 !important;
+                }
+
+             
+
+/* 
+                .jumbotron{
+                 padding-top: 8px;
+                 padding-bottom: 10px;
+                 background-color: #364453 !important ;
+                 padding: 18px 25px !important ;
+                 margin-left:67px;
+                 border-radius: 0.3rem !important ;
+               
+                 } */
+               
+                .eligibilityBtn{
+                    background-color: #55b596;
+                    color: white !important;
+                    padding: 2px;
+                    cursor: pointer;
+                    margin-bottom: 10px;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    text-align: center;
+                    
+
+                }            
+
+                .evalutionBtn{
+                    background-color: #55b596;
+                    color: white !important;
+                    padding: 2px;
+                    cursor: pointer;
+                    margin-bottom: 10px;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    text-align: center;
+    
+                    }    
+                    
+                    .removBorder{
+                        width:100%;
+                    }
+
+
+                   
+                    
+                   
+
+
+
+                    table, th, td
+                                {
+                                     border: 0;
+                                     background-color:#364453;
+                                     padding-bottom:11px;
+                                     border-radius:7px;
+
+                                }
+                       table
+                                {
+                                       border-collapse:collapse;
+                                }
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    background-color: #17b495;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    height: 40px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#gearAccount{
+    padding-left: 58px;
+    padding-top: 15px;
+
+}
+
+#gearDocument{
+    padding-left: 73px;
+    padding-top: 17px;
+}
+
+#gearAnnexures{
+    padding-left: 73px;
+    padding-top: 17px;
+}
+
+#gearCriterion{
+    padding-left: 58px;
+    padding-top: 17px;
+}
+
+
+
+#gearSupport{
+    padding-left: 58px;
+    padding-top: 15px;
+}
+
+#gearDelivery{
+    padding-left: 58px;
+    padding-top: 15px;
+}
+
+#gearFinancial{
+    padding-left: 58px;
+    padding-top: 15px;
+}
+
+
+.checkboxAnnexures , .checkboxDocs{
+margin-left: 12px !important;
+}
+
+#relationship{
+height:133px;
+width: 367px;
+}
+td{
+    color:black;
+    font-size:12px;
+}
+th{
+    font-size:14px;
+}
